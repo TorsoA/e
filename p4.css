@@ -1,0 +1,340 @@
+body{
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+    overflow:hidden;
+    }
+
+
+
+.Pergunta_4 {
+    margin-top: 100px;
+    margin-left: 50px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.Respostas {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 150px;
+
+}
+
+ 
+#resp_A-P4 {
+    
+    margin-top: 350px;
+    margin-left: 10px;
+    position: absolute;
+
+
+
+
+}
+
+#resp_B-P4{
+
+    margin-top: 500px;
+    margin-left: 10px;
+    position: absolute;
+
+
+}
+
+#resp_C-P4 {
+
+    margin-top: 350px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+#resp_D-P4 {
+
+    margin-top: 500px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+
+#mensagem1 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgba(228, 49, 32, 0.957);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem2 {
+    display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgb(59, 216, 57);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+}
+
+#mensagem_erro {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#mensagem_pontos1
+
+{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left:15px;
+    position: absolute;
+
+}
+
+
+
+#mensagem_pontos2 {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+
+#voltarimg {
+    margin-top: -19px;
+    margin-left: -10px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+
+}
+
+#inicio1, #inicio2{
+
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+   position: absolute;
+
+}
+
+
+
+
+    
+#proximo{
+    
+       
+    margin-top: 115px;
+    margin-left: 270px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+
+#numero1, #numero2, #numero3, #numero4, #numero5, #numero6{
+
+    height:50px ;
+    width:50px ;
+    opacity: 70%;
+    margin-left: 30px;
+        }
+    
+        #numero1, #numero2, #numero3, #numero5, #numero6{
+    
+   
+    opacity: 70%;
+    transform: scale(0.8);
+    
+    
+    
+        }
+    
+        #numerais{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    margin-left: 500px;
+    
+    
+        }
+
+        #img-celulaAnimal{
+            width: 200px;
+            height:200px ;
+            margin-top: 1000px;
+            margin-left: 150px;
+            position: absolute;
+            z-index: -998;
+            opacity: 60%;
+        animation: jump1 4s ease-in-out infinite ;
+        
+        
+        }
+
+        
+        @keyframes jump1 {
+            0% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+                animation-delay: 5s ;
+            }
+            50% {
+                transform: translateX(-50%) translateY(-650px) rotate(360deg);
+            }
+            100% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            
+        }
+
+        #img-centriolos{
+            width: 200px;
+            height:200px ;
+            margin-top: 1000px;
+            margin-left: 900px;
+            position: absolute;
+            z-index: -998;
+            opacity:40%;
+        animation: jump2 6s ease-in-out infinite ;
+        
+        
+        }
+
+        
+        @keyframes jump2 {
+            0% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateX(-50%) translateY(-550px) rotate(60deg);
+            }
+            100% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            
+        }
+
+
+        #img-nucleo{
+            width: 200px;
+            height:200px ;
+            margin-top: 1000px;
+            margin-left: 1500px;
+            position: absolute;
+            z-index: -998;
+            opacity: 50%;
+        animation: jump3 3s ease-in-out infinite ;
+    
+        
+        }
+
+        
+        @keyframes jump3 {
+            0% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateX(-50%) translateY(-700px) rotate(-60deg);
+            }
+            100% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            
+        }
+
+       
+        #img-complexoGolgi{
+            width: 200px;
+            height:200px ;
+            margin-top: 1000px;
+            margin-left: 300px;
+            position: absolute;
+            z-index: -998;
+            opacity: 30%;
+        animation: jump4 3.6s ease-in-out infinite ;
+    
+        
+        }
+
+        
+        @keyframes jump4 {
+            0% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateX(-50%) translateY(-700px) rotate(-200deg);
+            }
+            100% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            
+        }
+       
+
+        #img-mitocondria{
+            width: 200px;
+            height:200px ;
+            margin-top: 1000px;
+            margin-left: 1200px;
+            position: absolute;
+            z-index: -998;
+            opacity: 50%;
+        animation: jump5 2.7s ease-in-out infinite ;
+    
+        
+        }
+
+        
+        @keyframes jump5 {
+            0% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateX(-50%) translateY(-500px) rotate(20deg);
+            }
+            100% {
+                transform: translateX(-50%) translateY(0) rotate(0deg);
+            }
+            
+        }
+

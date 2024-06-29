@@ -1,0 +1,325 @@
+body{
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+    overflow: hidden;
+    }
+
+
+
+.Pergunta_6 {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 12px;
+
+
+}
+
+
+.Respostas {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 150px;
+font-size: 20px;
+}
+
+#resp_A-P6 {
+    
+    margin-top: 350px;
+    margin-left: 10px;
+    position: absolute;
+
+
+
+
+}
+
+#resp_B-P6{
+
+    margin-top: 500px;
+    margin-left: 10px;
+    position: absolute;
+
+
+}
+
+#resp_C-P6 {
+
+    margin-top: 350px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+#resp_D-P6 {
+    margin-top: 500px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+#mensagem1 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgba(228, 49, 32, 0.957);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem2 {
+    display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgb(59, 216, 57);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+}
+
+#mensagem_erro {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#mensagem_pontos1
+
+{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left:104px;
+    position: absolute;
+
+}
+
+
+
+#mensagem_pontos2 {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 104px;
+    position: absolute;
+
+}
+
+
+#voltarimg {
+    margin-top: -19px;
+    margin-left: -10px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+
+}
+
+#inicio1, #inicio2{
+
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+   position: absolute;
+
+}
+
+
+
+
+    
+#proximo{
+    
+       
+    margin-top: 121px;
+    margin-left: 270px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    opacity: 95%;
+
+}
+
+#numero1, #numero2, #numero3, #numero4, #numero5, #numero6{
+
+    height:50px ;
+    width:50px ;
+    opacity: 70%;
+    margin-left: 30px;
+        }
+    
+        #numero1, #numero2, #numero3, #numero5, #numero4{
+    
+   
+    opacity: 70%;
+    transform: scale(0.8);
+    
+    
+    
+        }
+    
+        #numerais{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    margin-left: 500px;
+    
+    
+    
+        }
+
+ #um{
+    height: 200px;
+    width: 200px;
+animation: um 8s infinite linear ;
+margin-top: 200px;
+position: absolute;
+opacity: 50%;
+z-index: -999;
+ }
+
+ #dois{
+    height: 200px;
+    width: 200px;
+    animation: dois 6s infinite linear ;
+    position: absolute;
+    margin-top: 60px;
+    opacity: 50%;
+    z-index: -999;
+
+
+ }
+
+ #tres{
+    height: 200px;
+    width: 200px;
+    animation: tres 9s infinite linear ;
+    position: absolute;
+    margin-top: 300px;
+    z-index: -999;
+    opacity: 50%;
+
+
+ }
+
+ #quatro{
+    height: 200px;
+    width: 200px;
+    margin-top: 600px;
+    animation: quatro 4s infinite linear ;
+    position: absolute;
+    opacity: 50%;
+    z-index: -999;
+}
+
+#cinco{
+    height: 200px;
+    width: 200px;
+    margin-top: 400px;
+    animation: quatro 8s infinite linear ;
+    position: absolute;
+    opacity: 50%;
+    z-index: -999;
+}
+
+#seis{
+    height: 200px;
+    width: 200px;
+    animation: quatro 10s infinite linear ;
+    position: absolute;
+    opacity: 50%;
+    z-index: -999;
+}
+
+
+ 
+
+@keyframes um {
+   
+    from{
+transform: translateX(1800px) scale(1.1) rotate(80deg);
+
+    }
+   
+to{
+    transform: translateX(-1700px) scale(0.9) rotate(-40deg);
+
+}
+    
+}
+
+
+@keyframes dois {
+   
+    from{
+transform: translateX(1800px) scale(1.1) rotate(-80deg);
+
+    }
+   
+to{
+    transform: translateX(-1700px) scale(0.9) rotate(40deg);
+
+}
+    
+}
+
+
+@keyframes tres {
+   
+    from{
+transform: translateX(1800px) scale(1.1) rotate(10deg);
+
+    }
+   
+to{
+    transform: translateX(-1700px) scale(0.9) rotate(-180deg);
+
+}
+    
+}
+
+
+@keyframes quatro {
+   
+    from{
+transform: translateX(1800px) scale(1.1) rotate(80deg);
+
+    }
+   
+to{
+    transform: translateX(-1700px) scale(0.9) rotate(-40deg);
+
+}
+    
+}

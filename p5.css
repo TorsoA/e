@@ -1,0 +1,277 @@
+body{
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+    overflow: hidden;
+    }
+
+
+
+.Pergunta_5 {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.Respostas {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 150px;
+
+}
+
+#resp_A-P5 {
+
+    margin-top: 300px;
+    margin-left: 200px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+
+}
+
+#celula{
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+#resp_B-P5 {
+    margin-top: 530px;
+    margin-left: 200px;
+    position: absolute;
+
+}
+
+#bacteria {
+
+
+    width: 150px;
+    height: 150px;
+
+}
+
+
+#resp_C-P5 {
+
+    margin-top: 300px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+#dna{
+
+
+    width: 150px;
+    height: 150px;
+    
+
+
+}
+
+#resp_D-P5 {
+
+    margin-top: 530px;
+    margin-left: 800px;
+    position: absolute;
+
+
+}
+
+#proteina{
+
+
+    width: 150px;
+    height: 150px;
+
+
+}
+
+#mensagem1 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgba(228, 49, 32, 0.957);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem2 {
+    display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgb(59, 216, 57);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+}
+
+#mensagem_erro {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#mensagem_pontos1
+
+{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left:15px;
+    position: absolute;
+
+}
+
+
+
+#mensagem_pontos2 {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+
+#voltarimg {
+    margin-top: -19px;
+    margin-left: -10px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+
+}
+
+#inicio1, #inicio2{
+
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+   position: absolute;
+
+}
+
+
+
+
+    
+#proximo{
+    
+       
+    margin-top: 115px;
+    margin-left: 270px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+
+#numero1, #numero2, #numero3, #numero4, #numero5, #numero6{
+
+    height:50px ;
+    width:50px ;
+    opacity: 70%;
+    margin-left: 30px;
+        }
+    
+        #numero1, #numero2, #numero3, #numero4, #numero6{
+    
+   
+    opacity: 70%;
+    transform: scale(0.8);
+    
+    
+    
+        }
+    
+        #numerais{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    margin-left: 500px;
+    
+    
+        }
+
+        #perguntaimg{
+
+margin-top: 200px; 
+margin-left: 1200px;
+opacity: 60%;
+position: absolute;
+z-index: -999;
+animation: an1 4s infinite ;
+
+        }
+
+        @keyframes an1 {
+
+0%, 100%{
+
+    transform: rotate(0deg) scale(1.1);
+
+}
+
+50%{
+
+    transform: rotate(20deg) scale(1);
+
+}
+
+80%{
+
+    transform: rotate(-20deg) scale(1.1);
+
+}
+         
+        }
+
+        #im1{
+
+height: 250px;
+width: 250px ;
+            margin-top: 350px;
+            margin-left: 1100px;
+            opacity: 70%;
+            position: absolute;
+            z-index: -999;
+            animation: an1 4s infinite ;
+
+        }

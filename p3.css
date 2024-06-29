@@ -1,0 +1,364 @@
+body {
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+overflow: hidden;
+}
+
+
+
+
+.Pergunta_3 {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.Respostas {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 150px;
+
+}
+
+#resp_A-P3 {
+
+    margin-top: 300px;
+    margin-left: 30px;
+    position: absolute;
+
+
+
+
+}
+
+#resp_B-P3 {
+
+    margin-top: 430px;
+    margin-left: 30px;
+    position: absolute;
+
+
+}
+
+#resp_C-P3 {
+
+    margin-top: 300px;
+    margin-left: 600px;
+    position: absolute;
+
+
+}
+
+#resp_D-P3 {
+
+    margin-top: 430px;
+    margin-left: 600px;
+    position: absolute;
+
+
+}
+
+
+
+
+#mensagem1 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgba(228, 49, 32, 0.957);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem2 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgb(59, 216, 57);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem_erro {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#mensagem_pontos1 {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+
+
+#mensagem_pontos2 {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+
+#voltarimg {
+    margin-top: -19px;
+    margin-left: -10px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+
+}
+
+#inicio1,
+#inicio2 {
+
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+
+
+
+
+
+#proximo {
+
+
+    margin-top: 115px;
+    margin-left: 270px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+
+#numero1,
+#numero2,
+#numero3,
+#numero4,
+#numero5,
+#numero6 {
+
+    height: 50px;
+    width: 50px;
+    opacity: 70%;
+    margin-left: 30px;
+
+}
+
+#numero1,
+#numero2,
+#numero4,
+#numero5,
+#numero6 {
+
+
+    opacity: 70%;
+    transform: scale(0.8);
+
+
+
+}
+
+#numerais {
+    z-index: 999;
+    display: none;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 1px;
+
+
+}
+
+
+
+#img-peixe {
+
+
+    width: 250px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 1300px;
+    position: absolute;
+    z-index: -998;
+    opacity: 70%;
+    animation: swim 5s infinite ;
+  
+
+
+
+}
+
+
+@keyframes swim {
+   
+    from{
+transform: translateX(400px);
+    }
+    50%{
+        transform: scale(1.2);
+
+
+    }
+75%{
+    transform: translateX(-1300px);
+
+}
+
+100%{
+    transform: translateX(-1700px);
+
+}
+    
+}
+
+
+
+
+#img-coral1,
+#img-coral2,
+#img-coral3,
+#img-coral4,
+#img-coral5,
+#img-coral6 {
+
+    margin-top: 610px;
+    position: absolute;
+    margin-left: 10px;
+
+}
+
+#img-coral1 {
+
+    height: 150px;
+    width: 150px;
+
+
+}
+
+#img-coral2 {
+    margin-left: 200px;
+    height: 210px;
+    width: 210px;
+
+
+}
+
+#img-coral3 {
+    margin-left: 600px;
+    height: 170px;
+    width: 170px;
+
+
+}
+
+#img-coral4 {
+    margin-left: 1000px;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+#img-coral5 {
+    margin-left: 1400px;
+    height: 150px;
+    width: 150px;
+
+
+}
+
+#img-coral6 {
+    margin-left: 1300px;
+    height: 150px;
+    width: 150px;
+
+
+}
+
+#fundo1 {
+    margin-top: 620px;
+    margin-left: -100px;
+    position: absolute;
+    height: 1900px;
+    width: 1900px;
+    transform: rotateX(150deg);
+    z-index: -9999;
+
+}
+
+#fundo2 {
+    margin-top: 680px;
+    margin-left: 100px;
+    position: absolute;
+    height: 1700px;
+    width: 1700px;
+    transform: rotateX(150deg);
+    z-index: -9999;
+
+}
+
+
+#pedra1 {
+
+    margin-top: 680px;
+    margin-left: 1370px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+
+
+}
+
+#pedra2 {
+
+
+    margin-top: 700px;
+    margin-left: -100px;
+    height: 300px;
+    width: 300px;
+    z-index: 9999;
+    position: absolute;
+
+}

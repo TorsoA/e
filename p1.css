@@ -1,0 +1,272 @@
+body{
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+  
+    }
+    
+    .desfocado {
+        filter: blur(0px); 
+       
+    }
+    
+    .Pergunta_1 {
+    
+     
+        margin-top: 100px;
+        margin-left: 50px;
+        position: absolute;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    }
+    
+    
+    .Respostas {
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin-left: 150px;
+    
+    }
+    
+    #resp_A-P1 {
+    
+        margin-top: 350px;
+        margin-left: 10px;
+        position: absolute;
+        cursor: pointer;
+    
+    
+    
+    }
+    
+    #resp_B-P1 {
+        cursor: pointer;
+        margin-top: 500px;
+        margin-left: 10px;
+        position: absolute;
+    
+    
+    }
+    
+    #resp_C-P1 {
+        cursor: pointer;
+        margin-top: 350px;
+        margin-left: 600px;
+        position: absolute;
+    
+    
+    }
+    
+    #resp_D-P1 {
+      cursor: pointer;
+        margin-top: 500px;
+        margin-left: 600px;
+        position: absolute;
+    
+    
+    }
+    
+    #mensagem1 {
+        display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgba(228, 49, 32, 0.957);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+    }
+    
+    #mensagem2 {
+        display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgb(59, 216, 57);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+    }
+    
+
+    #mensagem_erro {
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: 0px;
+        margin-left: 100px;
+        position: absolute;
+    }
+    
+    
+    #mensagem_pontos1
+    
+    {
+    
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left:15px;
+        position: absolute;
+    
+    }
+    
+    #mensagem_pontos2 {
+    
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 15px;
+        position: absolute;
+    
+    }
+    
+    #voltarimg {
+        margin-top: -19px;
+        margin-left: -10px;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+    
+    
+    }
+    
+    
+    
+    #inicio1, #inicio2{
+    
+    
+        margin-top: 100px;
+        margin-left: 120px;
+        width: 100px;
+        height: 100px;
+       position: absolute;
+    }
+    
+    
+    
+    #proximo{
+    
+       
+        margin-top: 115px;
+        margin-left: 270px;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+    
+    }
+    
+    
+        .img-celebro{
+        
+            
+            margin-top: 450px;
+            margin-left: 1285px;
+            position: absolute;
+            z-index: -998;
+            transform: rotate(-10deg);
+            opacity: 70%;
+            animation: celebro1 1s ;
+            animation: celebro2 3s infinite;
+        
+        }
+        
+        .img-bolinhacolorida{
+        
+            
+            margin-top: 100px;
+            margin-left:-30px;
+            position: absolute;
+            z-index: -998;
+            transform: rotate(-10deg);
+            opacity: 40%;
+            animation: bolinha 10s infinite ;
+        
+        
+        }
+        
+        
+        @keyframes bolinha {
+            0%, 100% {
+                transform: scale(0.7) rotate(15deg);
+            }
+            25% {
+                transform: scale(1) rotate(45deg) ;
+            }
+            50% {
+                transform: scale(1.1) rotate(180deg);
+            }
+            75% {
+                transform: scale(0.8) rotate(-15deg);
+            }
+        
+        }
+        
+        
+        
+        @keyframes celebro1{
+            0%, 100% {
+                transform: scale(0.1) rotate(15deg);
+            }
+        
+        }
+        
+        @keyframes celebro2 {
+            0%, 100% {
+                transform: scale(0.9) ;
+            }
+            25% {
+                transform: scale(1) ;
+            }
+            50% {
+                transform: scale(1.1) ;
+            }
+            75% {
+                transform: scale(1.0);
+            }
+        
+        }
+
+    #numero1, #numero2, #numero3, #numero4, #numero5, #numero6{
+
+height:50px ;
+width:50px ;
+opacity: 70%;
+margin-left: 30px;
+    }
+
+    #numero2, #numero3, #numero4, #numero5, #numero6{
+
+
+opacity: 70%;
+transform: scale(0.8);
+
+
+
+    }
+
+    #numerais{
+z-index: 999;
+display: none;
+position: absolute;
+margin-left: 500px;
+
+
+    }

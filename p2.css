@@ -1,0 +1,339 @@
+body{
+
+    background-color: rgb(163, 198, 140);
+    filter: blur(0px);
+    overflow: hidden;
+    }
+
+
+.Pergunta_2 {
+    margin-top: 100px;
+    margin-left: 50px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.Respostas {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-left: 300px;
+
+}
+
+#resp_A-P2 {
+    cursor: pointer;
+    margin-top: 350px;
+    margin-left: 10px;
+    position: absolute;
+
+
+
+
+}
+
+#resp_B-P2 {
+
+    margin-top: 500px;
+    margin-left: 10px;
+    position: absolute;
+
+
+}
+
+#resp_C-P2 {
+
+    margin-top: 350px;
+    margin-left: 600px;
+    position: absolute;
+
+
+}
+
+#resp_D-P2 {
+
+    margin-top: 500px;
+    margin-left: 600px;
+    position: absolute;
+
+
+}
+
+#mensagem1 {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 350px;
+    left: 825px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgba(228, 49, 32, 0.957);
+    border-radius: 5px;
+    box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+    z-index: 9999;
+}
+
+#mensagem2 {
+    display: none;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        top: 350px;
+        left: 825px;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 5px solid rgb(59, 216, 57);
+        border-radius: 5px;
+        box-shadow: 5px 20px 30px rgba(116, 74, 74, 0.5);
+        z-index: 9999;
+}
+
+#mensagem_erro {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#mensagem_pontos1
+
+{
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left:15px;
+    position: absolute;
+
+}
+
+
+
+#mensagem_pontos2 {
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: absolute;
+
+}
+
+
+#voltarimg {
+    margin-top: -19px;
+    margin-left: -10px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+
+
+}
+
+#inicio1, #inicio2{
+
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+   position: absolute;
+
+}
+
+
+
+
+    
+#proximo{
+    
+       
+    margin-top: 115px;
+    margin-left: 270px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+
+}
+
+
+
+
+
+
+#img-carnepodre{
+    
+        width:300px ;
+        height: 300px;
+    margin-top: 250px;
+    margin-left: 1200px;
+    position: absolute;
+    z-index: -998;
+    opacity: 7  0%;
+   
+   
+
+}
+
+#img-pensando{
+
+    width: 400px;
+    height:400px ;
+    margin-top: 300px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: -998;
+    transform: rotate(-10deg);
+    opacity: 110%;
+    animation: micro 15s infinite ;
+
+
+}
+
+#img-mosca1{
+
+
+    width: 250px;
+    height:250px ;
+    margin-top: 300px;
+    margin-left: 1200px;
+    position: absolute;
+    z-index: -998;
+    transform: rotate(-10deg);
+    opacity: 110%;
+    animation: moveMosca 10s infinite ;
+
+
+
+
+}
+
+
+
+
+@keyframes moveMosca {
+    
+ 
+    0% { top: 10px;
+        left: 150px;
+        }  
+    25% {
+        top: 80px;
+        left: -30px ;
+        }
+    
+    50% {
+                  
+    top: -140px;    
+    left: 20px;
+        }
+
+    75% {
+            top: -90px;
+            left: 80px;
+        }
+    
+80%{
+
+    transform: rotateY(150deg);
+
+}
+
+    100% {
+           
+            top: 10px;
+            left: 150px;
+        }
+    }
+    
+        
+    
+
+
+
+@keyframes micro {
+    0%, 100% {
+        transform: scale(1) rotateX(15deg);
+    }
+    25% {
+        transform: scale(1) rotateY(150deg) ;
+    }
+    50% {
+        transform: scale(1) rotate(15deg);
+    }
+    75% {
+        transform: scale(1) rotate(15deg);
+    }
+
+}
+
+
+
+
+
+@keyframes garrafa1 {
+    0%, 100% {
+        transform: scale(0.9) ;
+    }
+    25% {
+        transform: scale(1) ;
+    }
+    50% {
+        transform: scale(0.9) ;
+    }
+    75% {
+        transform: scale(1);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#numero1, #numero2, #numero3, #numero4, #numero5, #numero6{
+
+    height:50px ;
+    width:50px ;
+    opacity: 70%;
+    margin-left: 30px;
+        }
+    
+        #numero1, #numero3, #numero4, #numero5, #numero6{
+    
+   
+    opacity: 70%;
+    transform: scale(0.8);
+    
+    
+    
+        }
+    
+        #numerais{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    margin-left: 500px;
+    
+    
+        }
